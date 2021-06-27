@@ -61,6 +61,8 @@ Upon establishing the Flask server and accessing our page, you will be welcomed 
 [Carlos Ricoveri](https://github.com/carlosricov) and [Jorge Sanchez](https://github.com/S4ND1X). If interested in learning more about our pod, feel free to explore the __About__ section, also designed by Jorge. For the time being, only the profiles of the members of team 1 will be accessible. To see them, click on the corresponding image within the landing page. The profile section was designed by [Saul Montes De Oca](https://github.com/saulmontesdeoca). A screenshot of the welcome landing page can be seen here:
 ![Figma Landing Page Revised Design][product-screenshot]
 
+Update: The website is deployed via AWS cloud services. Nginx was configured to handle all requests as well as handling a reverse-proxy to redirect http to https. The site is currently running at all times as a service on the cloud server. The website can be accessed via [this link here](carlosricoveri.duckdns.org).
+
 ### Built With
 * [Bootstrap](https://getbootstrap.com)
 * [Python](https://www.python.org/)
