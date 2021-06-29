@@ -12,10 +12,12 @@ db.init_app(app)
 SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
 SITE_FOLDER = "static/data"
 
+# Homepage
 @app.route('/')
 def index():
     return render_template('landing_page.html')
 
+# Profiles
 @app.route('/profile/<name>')
 def profile(name):
     json_url = os.path.join(SITE_ROOT, SITE_FOLDER, f"{name}.json")
