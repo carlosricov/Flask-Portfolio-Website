@@ -74,6 +74,8 @@ def login():
         else:
             return error, 418
     
-    return "Login Page not yet implemented", 501
+    
+    # return "Login Page not yet implemented", 501
+    return render_template('login.html')
 
 
