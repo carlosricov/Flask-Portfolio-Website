@@ -3,6 +3,7 @@
 url='https://carlosricoveri.duckdns.org'
 declare -a endpoints=("/" "/health" "/profile/carlos" "/profile/jorge" "/profile/saul" "/login" "/register")
 
+# Loop through each different endpoint
 for n in ${endpoints[@]}
 do
     point=$url$n
