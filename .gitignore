@@ -1,5 +1,5 @@
 # this is the name of the environment
 mlh-portfolio
 
-# By-product of the sql magic
+# By-product of the sql wizardry
 flask.sqlite
