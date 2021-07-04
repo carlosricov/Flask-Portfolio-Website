@@ -52,7 +52,8 @@ def register():
         else:
             return error, 418
     
-    return "Register Page not yet implemented", 501 
+    #return "Register Page not yet implemented", 501 
+    return render_template('register.html')
 
 # Login endpoint
 @app.route('/login', methods=('GET', 'POST'))
