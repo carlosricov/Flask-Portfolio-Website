@@ -3,3 +3,6 @@ mlh-portfolio
 
 # By-product of the sql wizardry
 flask.sqlite
+
+# Cache nonesense.
+__pycache__
