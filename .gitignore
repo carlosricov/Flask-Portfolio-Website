@@ -6,3 +6,8 @@ flask.sqlite
 
 # Cache nonesense.
 __pycache__
+*.pyc
+
+# Virtual environment shenanigans
+.venv
+python3-virtualenv
