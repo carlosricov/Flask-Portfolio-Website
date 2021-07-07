@@ -11,3 +11,4 @@ __pycache__
 # Virtual environment shenanigans
 .venv
 python3-virtualenv
+app/__pycache__/__init__.cpython-36.pyc
