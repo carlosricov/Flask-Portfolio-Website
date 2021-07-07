@@ -5,5 +5,13 @@ services:
         ports: 
             - "80:80"
         restart: always
+        env_file: 
+            - .env
         volumes: 
-            - ./flask.sqlite:/myportfolio/flask.sqlite
+            - .:/myportfolio
+    
+    db:
+        image: postgres
+        restart: always
+        env_file: 
+            - .env
