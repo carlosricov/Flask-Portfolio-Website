@@ -1,6 +1,6 @@
 #!/bin/bash
 
-url='https://carlosricoveri.duckdns.org'
+url='http://carlosricoveri.duckdns.org'
 declare -a endpoints=("/" "/health" "/profile/carlos" "/profile/jorge" "/profile/saul" "/login" "/register")
 
 # Loop through each different endpoint
