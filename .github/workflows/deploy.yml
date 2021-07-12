@@ -1,7 +1,6 @@
 name: Deploy
 
 on:
-  # Trigger the workflow on push or pull request only for main.
   push:
     branches:
       - main
@@ -20,6 +19,7 @@ jobs:
           cat >>~/.ssh/config <<END
           Host my-vm
             HostName $SSH_IP
+            USER $SSH_USER
             IdentityFile ~/.ssh/deploy-key.pem
             StrictHostKeyChecking no
           END
